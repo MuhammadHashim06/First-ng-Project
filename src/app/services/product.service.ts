@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { ProductRepresentation } from './models/product-representation';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn:'root'
 })
 export class ProductService {
 
