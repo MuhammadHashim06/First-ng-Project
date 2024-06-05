@@ -16,7 +16,11 @@ export class ProductService {
     const productsUrl=`${this.baseUrl}products?limit=${limit}`;
     return this.http.get<any>(productsUrl);
   }
-  createProduct(product:ProductRepresentation){
+  // createProduct(product:ProductRepresentation){
+  //   const productsUrl=`${this.baseUrl}products`; 
+  //   return this.http.post(productsUrl,product);
+  //  }
+   createProduct(product:any){
     const productsUrl=`${this.baseUrl}products`; 
     return this.http.post(productsUrl,product);
    }
