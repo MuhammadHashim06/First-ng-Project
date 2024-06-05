@@ -7,6 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "gcomp":"ng generate component",
+    "gservice":"ng generate services",
     "serve:ssr:firstng": "node dist/firstng/server/server.mjs"
   },
   "private": true,
